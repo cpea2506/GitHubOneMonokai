@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Github One Monokai",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Get One Monokai colorscheme into your Github code block",
+        "description": "Description of what the extension does."
+    }
+}
