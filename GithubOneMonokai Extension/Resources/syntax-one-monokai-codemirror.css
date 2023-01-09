@@ -1,0 +1,139 @@
+/* Content from https://github.com/primer/codemirror-github-light/blob/master/lib/codemirror-github-light-theme.css */
+
+:root {
+    /* same as prettylights */
+}
+
+.CodeMirror {
+  color: var(--color-one-monokai-fg) !important;
+}
+
+.CodeMirror-gutters {
+  background: var(--color-codemirror-gutters-bg); // #fff;
+}
+
+.CodeMirror-guttermarker {
+  color: var(--color-codemirror-guttermarker-text); // white;
+}
+
+.CodeMirror-guttermarker-subtle {
+  color: var(--color-codemirror-guttermarker-subtle-text);
+}
+
+ .CodeMirror-scrollbar-filler,
+ .CodeMirror-gutter-filler { }
+
+ .CodeMirror-linenumber {
+  color: var(--color-one-monokai-fg) !important;
+}
+
+ .CodeMirror-cursor {
+  border-left: 1px solid var(--color-codemirror-cursor); // #24292e;
+}
+
+.CodeMirror-focused .CodeMirror-selected,
+ .CodeMirror-line::selection,
+ .CodeMirror-line > span::selection,
+ .CodeMirror-line > span > span::selection {
+  background: var(--color-codemirror-selection-bg, #d7d4f0); // #c8c8fa
+}
+
+// Note: The ::-moz-selection selector needs to be used separatly otherwise the whole rule doesn't work.
+// For that reason the color (#c8c8fa) defined in the theme wasn't working in production
+// and the default selection color (#d7d4f0) from CodeMirror
+// https://github.com/codemirror/CodeMirror/blob/8bc57f76383e62e1a03c7d97c9eac74493fdbedc/lib/codemirror.css#L326
+// was used instead. So here we use the same #d7d4f0 to not cause any regression.
+
+ .CodeMirror-line::-moz-selection,
+ .CodeMirror-line > span::-moz-selection,
+ .CodeMirror-line > span > span::-moz-selection {
+  background: var(--color-codemirror-selection-bg, #d7d4f0); // #c8c8fa
+}
+
+ .CodeMirror-activeline-background {
+  background: var(--color-codemirror-activeline-bg); // #fafbfc;
+}
+
+ .CodeMirror-matchingbracket {
+  font-weight: bold;
+  text-decoration: none !important;
+  color: var(--color-one-monokai-dark-gray) !important;
+}
+
+ .CodeMirror-lines {
+     /* style inherited */
+ }
+
+.cm-comment {
+  color: var(--color-one-monokai-gray) !important;
+}
+
+.cm-constant {
+  color: var(--color-one-monokai-green) !important;
+}
+
+.cm-entity {
+  color: var(--color-one-monokai-aqua) !important;
+}
+
+.cm-keyword {
+  color: var(--color-one-monokai-pink) !important;
+}
+
+.cm-storage {
+  color: var(--color-codemirror-syntax-storage); // #d73a49;
+}
+
+.cm-string {
+  color: var(--color-one-monokai-yellow) !important;
+}
+
+.cm-support {
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--color-codemirror-syntax-support);
+}
+
+.cm-variable {
+  color: var(--color-one-monokai-fg) !important;
+}
+
+.cm-builtin {
+    color: var(--color-one-monokai-green);
+}
+
+.cm-number {
+    color: var(--color-one-monokai-purple) !important;
+}
+
+.cm-tag {
+    color: var(--color-one-monokai-pink);
+}
+
+.cm-attribute {
+    color: var(--color-one-monokai-green);
+}
+
+.cm-bracket {
+    color: var(--color-one-monokai-pink);
+}
+
+.cm-image-marker {
+    color: var(--color-one-monokai-pink);
+}
+
+.cm-link {
+    color: var(--color-one-monokai-aqua) !important;
+}
+
+.cm-header {
+    color: var(--color-one-monokai-yellow);
+}
+.cm-atom {
+    color: var(--color-one-monokai-green) !important;
+}
+
+.cm-meta, .cm-def {
+    color: var(--color-one-monokai-pink);
+}
