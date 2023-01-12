@@ -28,7 +28,7 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
             guard let state = state, error == nil else {
-                // Insert code to inform the user that something went wrong.
+                print(error as Any)
                 return
             }
 

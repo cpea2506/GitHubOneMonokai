@@ -42,4 +42,8 @@ body.state-off :is(.state-on, .state-unknown) {
 
 button {
     font-size: 1em;
+    background-color: #61afef;
+    border: none;
+    color: white;
+    border-radius: 8px;
 }

@@ -1,9 +1,9 @@
 function show(enabled, useSettingsInsteadOfPreferences) {
     if (useSettingsInsteadOfPreferences) {
-        document.getElementsByClassName('state-on')[0].innerText = "GithubOneMonokai’s extension is currently on. You can turn it off in the Extensions section of Safari Settings.";
-        document.getElementsByClassName('state-off')[0].innerText = "GithubOneMonokai’s extension is currently off. You can turn it on in the Extensions section of Safari Settings.";
+        document.getElementsByClassName('state-on')[0].innerText = "Status: Enabled";
+        document.getElementsByClassName('state-off')[0].innerText = "Status: Disabled";
         document.getElementsByClassName('state-unknown')[0].innerText = "You can turn on GithubOneMonokai’s extension in the Extensions section of Safari Settings.";
-        document.getElementsByClassName('open-preferences')[0].innerText = "Quit and Open Safari Settings…";
+        document.getElementsByClassName('open-preferences')[0].innerText = "Open in Safari Settings…";
     }
 
     if (typeof enabled === "boolean") {

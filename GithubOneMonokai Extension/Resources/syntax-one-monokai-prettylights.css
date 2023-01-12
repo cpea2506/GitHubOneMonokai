@@ -38,6 +38,10 @@
   color: var(--color-one-monokai-cyan) !important;
 }
 
+.pl-s1 {
+  color: var(--color-one-monokai-orange);
+}
+
 .pl-ent /* entity.name.tag, markup.quote */ {
   color: var(--color-one-monokai-pink) !important;
 }
