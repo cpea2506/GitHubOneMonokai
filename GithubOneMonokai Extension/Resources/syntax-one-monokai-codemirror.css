@@ -1,5 +1,7 @@
 /* Content from https://github.com/primer/codemirror-github-light/blob/master/lib/codemirror-github-light-theme.css */
 
+/* Currently there is no such documentation about what type and token on these classes */
+
 :root {
     /* same as prettylights */
 }
@@ -8,50 +10,38 @@
   color: var(--color-one-monokai-fg) !important;
 }
 
-.CodeMirror-gutters {
-  background: var(--color-codemirror-gutters-bg); // #fff;
-}
+.CodeMirror-gutters { }
 
-.CodeMirror-guttermarker {
-  color: var(--color-codemirror-guttermarker-text); // white;
-}
+.CodeMirror-guttermarker { }
 
-.CodeMirror-guttermarker-subtle {
-  color: var(--color-codemirror-guttermarker-subtle-text);
-}
+.CodeMirror-guttermarker-subtle { }
 
  .CodeMirror-scrollbar-filler,
  .CodeMirror-gutter-filler { }
 
- .CodeMirror-linenumber {
+.CodeMirror-linenumber {
   color: var(--color-one-monokai-fg) !important;
 }
 
- .CodeMirror-cursor {
-  border-left: 1px solid var(--color-codemirror-cursor); // #24292e;
+.CodeMirror-cursor {
+  border-left: 1px solid var(--color-one-monokai-fg) !important;
 }
 
 .CodeMirror-focused .CodeMirror-selected,
- .CodeMirror-line::selection,
- .CodeMirror-line > span::selection,
- .CodeMirror-line > span > span::selection {
-  background: var(--color-codemirror-selection-bg, #d7d4f0); // #c8c8fa
+.CodeMirror-line::selection,
+.CodeMirror-line > span::selection,
+.CodeMirror-line > span > span::selection {
+  background: var(--color-one-monokai-aqua, #d7d4f0) !important;
 }
 
-// Note: The ::-moz-selection selector needs to be used separatly otherwise the whole rule doesn't work.
-// For that reason the color (#c8c8fa) defined in the theme wasn't working in production
-// and the default selection color (#d7d4f0) from CodeMirror
-// https://github.com/codemirror/CodeMirror/blob/8bc57f76383e62e1a03c7d97c9eac74493fdbedc/lib/codemirror.css#L326
-// was used instead. So here we use the same #d7d4f0 to not cause any regression.
-
- .CodeMirror-line::-moz-selection,
- .CodeMirror-line > span::-moz-selection,
- .CodeMirror-line > span > span::-moz-selection {
-  background: var(--color-codemirror-selection-bg, #d7d4f0); // #c8c8fa
+.CodeMirror-line::-moz-selection,
+.CodeMirror-line > span::-moz-selection,
+.CodeMirror-line > span > span::-moz-selection {
+  background: var(--color-one-monokai-aqua, #d7d4f0) !important;
 }
 
- .CodeMirror-activeline-background {
-  background: var(--color-codemirror-activeline-bg); // #fafbfc;
+.CodeMirror-activeline-background {
+  background: var(--one-monokai-dark-gray) !important;
 }
 
  .CodeMirror-matchingbracket {
@@ -128,12 +118,25 @@
 }
 
 .cm-header {
-    color: var(--color-one-monokai-yellow);
-}
-.cm-atom {
-    color: var(--color-one-monokai-green) !important;
+    color: var(--color-one-monokai-yellow) !important;
 }
 
-.cm-meta, .cm-def {
+.cm-atom {
+    color: var(--color-one-monokai-pink) !important;
+}
+
+.cm-property {
+    color: var(--color-one-monokai-aqua);
+}
+
+.cm-punctuation, .CodeMirror .cm-operator {
     color: var(--color-one-monokai-pink);
+}
+
+.cm-meta {
+    color: var(--color-one-monokai-pink);
+}
+
+.cm-def, .cm-variable-2, .cm-variable-3, .cm-qualifier {
+    color: var(--color-one-monokai-green);
 }
