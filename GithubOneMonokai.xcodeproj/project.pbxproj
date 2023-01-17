@@ -15,9 +15,6 @@
 		587ED6D1296C6D1F00960B23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587ED6D0296C6D1F00960B23 /* ViewController.swift */; };
 		587ED6D4296C6D1F00960B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587ED6D2296C6D1F00960B23 /* Main.storyboard */; };
 		587ED6D6296C6D2000960B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587ED6D5296C6D2000960B23 /* Assets.xcassets */; };
-		587ED6E2296C6D2100960B23 /* GithubOneMonokaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587ED6E1296C6D2100960B23 /* GithubOneMonokaiTests.swift */; };
-		587ED6EC296C6D2100960B23 /* GithubOneMonokaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587ED6EB296C6D2100960B23 /* GithubOneMonokaiUITests.swift */; };
-		587ED6EE296C6D2100960B23 /* GithubOneMonokaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587ED6ED296C6D2100960B23 /* GithubOneMonokaiUITestsLaunchTests.swift */; };
 		587ED6F4296C6D2100960B23 /* GithubOneMonokai Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 587ED6F3296C6D2100960B23 /* GithubOneMonokai Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		587ED6F9296C6D2100960B23 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587ED6F8296C6D2100960B23 /* SafariWebExtensionHandler.swift */; };
 		587ED6FC296C6D2100960B23 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 587ED6FB296C6D2100960B23 /* _locales */; };
@@ -33,20 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		587ED6DE296C6D2100960B23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 587ED6B9296C6D1F00960B23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 587ED6C0296C6D1F00960B23;
-			remoteInfo = GithubOneMonokai;
-		};
-		587ED6E8296C6D2100960B23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 587ED6B9296C6D1F00960B23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 587ED6C0296C6D1F00960B23;
-			remoteInfo = GithubOneMonokai;
-		};
 		587ED6F5296C6D2100960B23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 587ED6B9296C6D1F00960B23 /* Project object */;
@@ -82,11 +65,6 @@
 		587ED6D5296C6D2000960B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587ED6D7296C6D2000960B23 /* GithubOneMonokai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GithubOneMonokai.entitlements; sourceTree = "<group>"; };
 		587ED6D8296C6D2000960B23 /* GithubOneMonokai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GithubOneMonokai.entitlements; sourceTree = "<group>"; };
-		587ED6DD296C6D2100960B23 /* GithubOneMonokaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubOneMonokaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		587ED6E1296C6D2100960B23 /* GithubOneMonokaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubOneMonokaiTests.swift; sourceTree = "<group>"; };
-		587ED6E7296C6D2100960B23 /* GithubOneMonokaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubOneMonokaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		587ED6EB296C6D2100960B23 /* GithubOneMonokaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubOneMonokaiUITests.swift; sourceTree = "<group>"; };
-		587ED6ED296C6D2100960B23 /* GithubOneMonokaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubOneMonokaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		587ED6F3296C6D2100960B23 /* GithubOneMonokai Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GithubOneMonokai Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		587ED6F8296C6D2100960B23 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		587ED6FB296C6D2100960B23 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
@@ -111,20 +89,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		587ED6DA296C6D2100960B23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		587ED6E4296C6D2100960B23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		587ED6F0296C6D2100960B23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				587ED6C3296C6D1F00960B23 /* GithubOneMonokai */,
-				587ED6E0296C6D2100960B23 /* GithubOneMonokaiTests */,
-				587ED6EA296C6D2100960B23 /* GithubOneMonokaiUITests */,
 				587ED6F7296C6D2100960B23 /* GithubOneMonokai Extension */,
 				587ED6C2296C6D1F00960B23 /* Products */,
 			);
@@ -150,8 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				587ED6C1296C6D1F00960B23 /* GithubOneMonokai.app */,
-				587ED6DD296C6D2100960B23 /* GithubOneMonokaiTests.xctest */,
-				587ED6E7296C6D2100960B23 /* GithubOneMonokaiUITests.xctest */,
 				587ED6F3296C6D2100960B23 /* GithubOneMonokai Extension.appex */,
 			);
 			name = Products;
@@ -180,23 +140,6 @@
 				587ED6CE296C6D1F00960B23 /* Script.js */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		587ED6E0296C6D2100960B23 /* GithubOneMonokaiTests */ = {
-			isa = PBXGroup;
-			children = (
-				587ED6E1296C6D2100960B23 /* GithubOneMonokaiTests.swift */,
-			);
-			path = GithubOneMonokaiTests;
-			sourceTree = "<group>";
-		};
-		587ED6EA296C6D2100960B23 /* GithubOneMonokaiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				587ED6EB296C6D2100960B23 /* GithubOneMonokaiUITests.swift */,
-				587ED6ED296C6D2100960B23 /* GithubOneMonokaiUITestsLaunchTests.swift */,
-			);
-			path = GithubOneMonokaiUITests;
 			sourceTree = "<group>";
 		};
 		587ED6F7296C6D2100960B23 /* GithubOneMonokai Extension */ = {
@@ -249,42 +192,6 @@
 			productReference = 587ED6C1296C6D1F00960B23 /* GithubOneMonokai.app */;
 			productType = "com.apple.product-type.application";
 		};
-		587ED6DC296C6D2100960B23 /* GithubOneMonokaiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 587ED716296C6D2100960B23 /* Build configuration list for PBXNativeTarget "GithubOneMonokaiTests" */;
-			buildPhases = (
-				587ED6D9296C6D2100960B23 /* Sources */,
-				587ED6DA296C6D2100960B23 /* Frameworks */,
-				587ED6DB296C6D2100960B23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				587ED6DF296C6D2100960B23 /* PBXTargetDependency */,
-			);
-			name = GithubOneMonokaiTests;
-			productName = GithubOneMonokaiTests;
-			productReference = 587ED6DD296C6D2100960B23 /* GithubOneMonokaiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		587ED6E6296C6D2100960B23 /* GithubOneMonokaiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 587ED719296C6D2100960B23 /* Build configuration list for PBXNativeTarget "GithubOneMonokaiUITests" */;
-			buildPhases = (
-				587ED6E3296C6D2100960B23 /* Sources */,
-				587ED6E4296C6D2100960B23 /* Frameworks */,
-				587ED6E5296C6D2100960B23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				587ED6E9296C6D2100960B23 /* PBXTargetDependency */,
-			);
-			name = GithubOneMonokaiUITests;
-			productName = GithubOneMonokaiUITests;
-			productReference = 587ED6E7296C6D2100960B23 /* GithubOneMonokaiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		587ED6F2296C6D2100960B23 /* GithubOneMonokai Extension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 587ED70F296C6D2100960B23 /* Build configuration list for PBXNativeTarget "GithubOneMonokai Extension" */;
@@ -315,14 +222,6 @@
 					587ED6C0296C6D1F00960B23 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					587ED6DC296C6D2100960B23 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 587ED6C0296C6D1F00960B23;
-					};
-					587ED6E6296C6D2100960B23 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 587ED6C0296C6D1F00960B23;
-					};
 					587ED6F2296C6D2100960B23 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -342,8 +241,6 @@
 			projectRoot = "";
 			targets = (
 				587ED6C0296C6D1F00960B23 /* GithubOneMonokai */,
-				587ED6DC296C6D2100960B23 /* GithubOneMonokaiTests */,
-				587ED6E6296C6D2100960B23 /* GithubOneMonokaiUITests */,
 				587ED6F2296C6D2100960B23 /* GithubOneMonokai Extension */,
 			);
 		};
@@ -360,20 +257,6 @@
 				587ED6C9296C6D1F00960B23 /* Main.html in Resources */,
 				587ED6D6296C6D2000960B23 /* Assets.xcassets in Resources */,
 				587ED6CD296C6D1F00960B23 /* Style.css in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		587ED6DB296C6D2100960B23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		587ED6E5296C6D2100960B23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,23 +289,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		587ED6D9296C6D2100960B23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				587ED6E2296C6D2100960B23 /* GithubOneMonokaiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		587ED6E3296C6D2100960B23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				587ED6EC296C6D2100960B23 /* GithubOneMonokaiUITests.swift in Sources */,
-				587ED6EE296C6D2100960B23 /* GithubOneMonokaiUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		587ED6EF296C6D2100960B23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,16 +300,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		587ED6DF296C6D2100960B23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 587ED6C0296C6D1F00960B23 /* GithubOneMonokai */;
-			targetProxy = 587ED6DE296C6D2100960B23 /* PBXContainerItemProxy */;
-		};
-		587ED6E9296C6D2100960B23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 587ED6C0296C6D1F00960B23 /* GithubOneMonokai */;
-			targetProxy = 587ED6E8296C6D2100960B23 /* PBXContainerItemProxy */;
-		};
 		587ED6F6296C6D2100960B23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 587ED6F2296C6D2100960B23 /* GithubOneMonokai Extension */;
@@ -722,78 +578,6 @@
 			};
 			name = Release;
 		};
-		587ED717296C6D2100960B23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R5YS792LYS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.GithubOneMonokaiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubOneMonokai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GithubOneMonokai";
-			};
-			name = Debug;
-		};
-		587ED718296C6D2100960B23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R5YS792LYS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.GithubOneMonokaiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubOneMonokai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GithubOneMonokai";
-			};
-			name = Release;
-		};
-		587ED71A296C6D2100960B23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R5YS792LYS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.GithubOneMonokaiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = GithubOneMonokai;
-			};
-			name = Debug;
-		};
-		587ED71B296C6D2100960B23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R5YS792LYS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.GithubOneMonokaiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = GithubOneMonokai;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -820,24 +604,6 @@
 			buildConfigurations = (
 				587ED714296C6D2100960B23 /* Debug */,
 				587ED715296C6D2100960B23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		587ED716296C6D2100960B23 /* Build configuration list for PBXNativeTarget "GithubOneMonokaiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				587ED717296C6D2100960B23 /* Debug */,
-				587ED718296C6D2100960B23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		587ED719296C6D2100960B23 /* Build configuration list for PBXNativeTarget "GithubOneMonokaiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				587ED71A296C6D2100960B23 /* Debug */,
-				587ED71B296C6D2100960B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
