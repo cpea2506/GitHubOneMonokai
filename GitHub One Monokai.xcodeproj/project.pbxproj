@@ -20,8 +20,8 @@
 		585335EA2982F763005C4170 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 585335E92982F763005C4170 /* _locales */; };
 		585335EC2982F763005C4170 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 585335EB2982F763005C4170 /* images */; };
 		585335EE2982F763005C4170 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 585335ED2982F763005C4170 /* manifest.json */; };
-		585336052982F972005C4170 /* syntax-one-monokai-codemirror.css in Resources */ = {isa = PBXBuildFile; fileRef = 585336042982F972005C4170 /* syntax-one-monokai-codemirror.css */; };
-		585336072982F976005C4170 /* syntax-one-monokai-prettylights.css in Resources */ = {isa = PBXBuildFile; fileRef = 585336062982F976005C4170 /* syntax-one-monokai-prettylights.css */; };
+		58C8BF242A5598BB0083C78F /* one-monokai-prettylights.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C8BF232A5598BB0083C78F /* one-monokai-prettylights.css */; };
+		58C8BF262A5598D20083C78F /* one-monokai-codemirror.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C8BF252A5598D20083C78F /* one-monokai-codemirror.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		585335ED2982F763005C4170 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		585335F92982F763005C4170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585335FA2982F763005C4170 /* GitHub One Monokai_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub One Monokai_Extension.entitlements"; sourceTree = "<group>"; };
-		585336042982F972005C4170 /* syntax-one-monokai-codemirror.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "syntax-one-monokai-codemirror.css"; sourceTree = "<group>"; };
-		585336062982F976005C4170 /* syntax-one-monokai-prettylights.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "syntax-one-monokai-prettylights.css"; sourceTree = "<group>"; };
+		58C8BF232A5598BB0083C78F /* one-monokai-prettylights.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "one-monokai-prettylights.css"; sourceTree = "<group>"; };
+		58C8BF252A5598D20083C78F /* one-monokai-codemirror.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "one-monokai-codemirror.css"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +149,8 @@
 				585335E92982F763005C4170 /* _locales */,
 				585335EB2982F763005C4170 /* images */,
 				585335ED2982F763005C4170 /* manifest.json */,
-				585336062982F976005C4170 /* syntax-one-monokai-prettylights.css */,
-				585336042982F972005C4170 /* syntax-one-monokai-codemirror.css */,
+				58C8BF252A5598D20083C78F /* one-monokai-codemirror.css */,
+				58C8BF232A5598BB0083C78F /* one-monokai-prettylights.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -251,9 +251,9 @@
 			files = (
 				585335EC2982F763005C4170 /* images in Resources */,
 				585335EE2982F763005C4170 /* manifest.json in Resources */,
+				58C8BF242A5598BB0083C78F /* one-monokai-prettylights.css in Resources */,
+				58C8BF262A5598D20083C78F /* one-monokai-codemirror.css in Resources */,
 				585335EA2982F763005C4170 /* _locales in Resources */,
-				585336072982F976005C4170 /* syntax-one-monokai-prettylights.css in Resources */,
-				585336052982F972005C4170 /* syntax-one-monokai-codemirror.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,15 +429,15 @@
 		585335FE2982F763005C4170 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "SafariGitHubSyntaxOneMonokai Extension/SafariGitHubSyntaxOneMonokai_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "GitHub One Monokai Extension/GitHub One Monokai_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = R5YS792LYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SafariGitHubSyntaxOneMonokai Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SafariGitHubSyntaxOneMonokai Extension";
+				INFOPLIST_FILE = "GitHub One Monokai Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub One Monokai Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,7 +450,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.SafariGitHubSyntaxOneMonokai.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.GitHubOneMonokai.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -461,15 +461,15 @@
 		585335FF2982F763005C4170 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "SafariGitHubSyntaxOneMonokai Extension/SafariGitHubSyntaxOneMonokai_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "GitHub One Monokai Extension/GitHub One Monokai_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = R5YS792LYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SafariGitHubSyntaxOneMonokai Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SafariGitHubSyntaxOneMonokai Extension";
+				INFOPLIST_FILE = "GitHub One Monokai Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub One Monokai Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,7 +482,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.SafariGitHubSyntaxOneMonokai.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.GitHubOneMonokai.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
