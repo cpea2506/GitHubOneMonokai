@@ -26,18 +26,18 @@ body {
 
     font: -apple-system-short-body;
     text-align: center;
-}
 
-body:not(.state-on, .state-off) :is(.state-on, .state-off) {
-    display: none;
-}
+    &:not(.state-on, .state-off) :is(.state-on, .state-off) {
+        display: none;
+    }
 
-body.state-on :is(.state-off, .state-unknown) {
-    display: none;
-}
+    &.state-on :is(.state-off, .state-unknown) {
+        display: none;
+    }
 
-body.state-off :is(.state-on, .state-unknown) {
-    display: none;
+    &.state-off :is(.state-on, .state-unknown) {
+        display: none;
+    }
 }
 
 button {

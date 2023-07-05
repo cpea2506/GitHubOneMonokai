@@ -7,7 +7,8 @@
     "scripts": {
         "build:codemirror": "tailwindcss -i './GitHub One Monokai Extension/Resources/one-monokai-codemirror.css' -o './GitHub One Monokai Extension/Resources/one-monokai-codemirror.css'",
         "build:prettylights": "tailwindcss -i './GitHub One Monokai Extension/Resources/one-monokai-prettylights.css' -o './GitHub One Monokai Extension/Resources/one-monokai-prettylights.css'",
-        "build:css": "sass . && pnpm build:codemirror && pnpm build:prettylights"
+        "build:css": "sass . && pnpm build:codemirror && pnpm build:prettylights",
+        "build": "tsc && pnpm build:css"
     },
     "type": "module",
     "devDependencies": {
@@ -16,6 +17,7 @@
         "sass": "^1.63.6",
         "stylelint": "^15.10.0",
         "stylelint-config-recommended-scss": "^12.0.0",
-        "tailwindcss": "^3.3.2"
+        "tailwindcss": "^3.3.2",
+        "typescript": "^5.1.6"
     }
 }
