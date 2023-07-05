@@ -1,143 +1,111 @@
 /* Content from https://github.com/primer/codemirror-github-light/blob/master/lib/codemirror-github-light-theme.css */
 
 /* Currently there is no such documentation about what type and token on these classes */
-:root {
-    --color-one-monokai-fg: #abb2bf;
-    --color-one-monokai-gray: #676e7b;
-    --color-one-monokai-pink: #e06c75;
-    --color-one-monokai-green: #98c379;
-    --color-one-monokai-cyan: #56b6c2;
-    --color-one-monokai-aqua: #61afef;
-    --color-one-monokai-yellow: #e5c07b;
-    --color-one-monokai-purple: #c678dd;
-    --color-one-monokai-orange: #d19a66;
-    --color-one-monokai-red: #f75f5f;
-    --color-one-monokai-dark-gray: #4b5261;
-    --color-one-monokai-white: #d7d7ff;
+[data-color-mode="light"][data-light-theme="dark"],
+[data-color-mode="dark"][data-dark-theme="dark"] {
+    --color-codemirror-syntax-string: theme(colors.yellow) #{!important};
+    --color-codemirror-syntax-keyword: theme(colors.pink) #{!important};
+    --color-codemirror-syntax-variable: theme(colors.fg) #{!important};
+    --color-codemirror-syntax-storage: theme(colors.pink) #{!important};
+    --color-codemirror-syntax-entity: theme(colors.green) #{!important};
+    --color-codemirror-syntax-constant: theme(colors.green) #{!important};
+    --color-codemirror-syntax-comment: theme(colors.gray) #{!important};
+    --color-codemirror-syntax-support: theme(colors.aqua) #{!important};
+    --color-codemirror-matchingbracket-text: theme(colors.pink) #{!important};
+    --color-codemirror-text: theme(colors.fg) #{!important};
+    --color-codemirror-cursor: theme(colors.aqua) #{!important};
 }
 
-.CodeMirror {
-    @apply text-fg #{!important};
-
-    &-linenumber {
+.cm {
+    &-line {
         @apply text-fg #{!important};
     }
 
-    &-cursor {
-        @apply border-l border-solid border-fg #{!important};
+    &-comment {
+        @apply text-gray #{!important};
     }
 
-    &-focused &-selected,
-    &-line::selection,
-    &-line > span::selection,
-    &-line > span > span::selection {
-        @apply bg-aqua #{!important};
+    &-constant {
+        @apply text-green #{!important};
     }
 
-    &-line::-moz-selection,
-    &-line > span::-moz-selection,
-    &-line > span > span::-moz-selection {
-        background: var(--color-one-monokai-aqua, #d7d4f0) !important;
+    &-entity {
+        @apply text-aqua #{!important};
     }
 
-    &-activeline-background {
-        background: var(--one-monokai-dark-gray) !important;
+    &-keyword {
+        @apply text-pink #{!important};
     }
 
-    &-matchingbracket {
-        font-weight: bold;
-        text-decoration: none !important;
-        color: var(--color-one-monokai-dark-gray) !important;
+    &-storage {
+        @apply text-pink #{!important};
     }
-}
 
-.cm-comment {
-    color: var(--color-one-monokai-gray) !important;
-}
+    &-string {
+        @apply text-yellow #{!important};
+    }
 
-.cm-constant {
-    color: var(--color-one-monokai-green) !important;
-}
+    &-support {
+        @apply font-normal not-italic text-[var(--color-codemirror-syntax-support)] no-underline #{!important};
+    }
 
-.cm-entity {
-    color: var(--color-one-monokai-aqua) !important;
-}
+    &-variable {
+        @apply text-fg #{!important};
+    }
 
-.cm-keyword {
-    color: var(--color-one-monokai-pink) !important;
-}
+    &-builtin {
+        @apply text-green #{!important};
+    }
 
-.cm-storage {
-    color: var(--color-codemirror-syntax-storage); // #d73a49;
-}
+    &-number {
+        @apply text-purple #{!important};
+    }
 
-.cm-string {
-    color: var(--color-one-monokai-yellow) !important;
-}
+    &-tag {
+        @apply text-pink #{!important};
+    }
 
-.cm-support {
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    color: var(--color-codemirror-syntax-support);
-}
+    &-attribute {
+        @apply text-green #{!important};
+    }
 
-.cm-variable {
-    color: var(--color-one-monokai-fg) !important;
-}
+    &-bracket {
+        @apply text-pink #{!important};
+    }
 
-.cm-builtin {
-    color: var(--color-one-monokai-green);
-}
+    &-image-marker {
+        @apply text-pink #{!important};
+    }
 
-.cm-number {
-    color: var(--color-one-monokai-purple) !important;
-}
+    &-link {
+        @apply text-aqua #{!important};
+    }
 
-.cm-tag {
-    color: var(--color-one-monokai-pink);
-}
+    &-header {
+        @apply text-yellow #{!important};
+    }
 
-.cm-attribute {
-    color: var(--color-one-monokai-green);
-}
+    &-atom {
+        @apply text-pink #{!important};
+    }
 
-.cm-bracket {
-    color: var(--color-one-monokai-pink);
-}
+    &-property {
+        @apply text-aqua #{!important};
+    }
 
-.cm-image-marker {
-    color: var(--color-one-monokai-pink);
-}
+    &-punctuation,
+    .CodeMirror &-operator {
+        @apply text-pink #{!important};
+    }
 
-.cm-link {
-    color: var(--color-one-monokai-aqua) !important;
-}
+    &-meta {
+        @apply text-pink #{!important};
+    }
 
-.cm-header {
-    color: var(--color-one-monokai-yellow) !important;
-}
-
-.cm-atom {
-    color: var(--color-one-monokai-pink) !important;
-}
-
-.cm-property {
-    color: var(--color-one-monokai-aqua);
-}
-
-.cm-punctuation,
-.CodeMirror .cm-operator {
-    color: var(--color-one-monokai-pink);
-}
-
-.cm-meta {
-    color: var(--color-one-monokai-pink);
-}
-
-.cm-def,
-.cm-variable-2,
-.cm-variable-3,
-.cm-qualifier {
-    color: var(--color-one-monokai-green);
+    &-def,
+    &-variable-2,
+    &-variable-3,
+    &-qualifier {
+        @apply text-green #{!important};
+    }
 }

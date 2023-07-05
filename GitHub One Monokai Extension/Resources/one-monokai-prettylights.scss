@@ -2,7 +2,7 @@
 
 [data-color-mode="light"][data-light-theme="dark"],
 [data-color-mode="dark"][data-dark-theme="dark"] {
-    --color-fg-default: #abb2bf #{!important};
+    --color-fg-default: theme(colors.fg) #{!important};
 }
 
 .pl {
