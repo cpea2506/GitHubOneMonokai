@@ -2,17 +2,17 @@
 // Created by Do Vien on 27/01/2023 at 01:01.
 //
 // Copyright © 2023 CPea2506. All rights reserved.
-// 
-
+//
 
 import Cocoa
 import SafariServices
 import WebKit
 
-let extensionBundleIdentifier = "com.cpea.SafariGitHubSyntaxOneMonokai.Extension"
+let extensionBundleIdentifier = "com.cpea.GitHubOneMonokai.Extension"
+
+// MARK: - ViewController
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
-
     @IBOutlet var webView: WKWebView!
 
     override func viewDidLoad() {
@@ -26,9 +26,9 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
+        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { state, error in
             guard let state = state, error == nil else {
-                // Insert code to inform the user that something went wrong.
+                debugPrint("Something went wrong: \(error!.localizedDescription)")
                 return
             }
 
@@ -43,15 +43,14 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
     }
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if (message.body as! String != "open-preferences") {
-            return;
+        if message.body as! String != "open-preferences" {
+            return
         }
 
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { _ in
             DispatchQueue.main.async {
                 NSApplication.shared.terminate(nil)
             }
         }
     }
-
 }
