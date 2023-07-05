@@ -1,0 +1,134 @@
+/* Content from https://github.com/primer/github-syntax-dark/blob/master/lib/github-dark.css */
+
+[data-color-mode="light"][data-light-theme="dark"],
+[data-color-mode="dark"][data-dark-theme="dark"] {
+    --color-fg-default: #abb2bf #{!important};
+}
+
+.pl {
+    &-c /* comment, punctuation.definition.comment, string.comment */ {
+        @apply text-gray #{!important};
+    }
+
+    &-v /* variable */,
+&-smw /* sublimelinter.mark.warning */ {
+        @apply text-fg #{!important};
+    }
+
+    &-c1 /* constant, entity.name.constant, variable.other.constant, variable.language, support, meta.property-name, support.constant, support.variable, meta.module-reference, markup.raw, meta.diff.header, meta.output */,
+&-s &-v /* string variable */ {
+        @apply text-green #{!important};
+    }
+
+    &-e /* entity */,
+&-en /* entity.name */ {
+        @apply text-green #{!important};
+    }
+
+    &-s1 {
+        @apply text-orange #{!important};
+    }
+
+    &-smi /* variable.parameter.function, storage.modifier.package, storage.modifier.import, storage.type.java, variable.other */,
+&-s &-s1 /* string source */ {
+        @apply text-cyan #{!important};
+    }
+
+    &-ent /* entity.name.tag, markup.quote */ {
+        @apply text-pink #{!important};
+    }
+
+    &-k /* keyword, storage, storage.type */ {
+        @apply text-pink #{!important};
+    }
+
+    &-s /* string */,
+&-pds /* punctuation.definition.string, source.regexp, string.regexp.character-class */,
+&-s &-pse &-s1 /* string punctuation.section.embedded source */,
+&-sr /* string.regexp */,
+&-sr &-cce /* string.regexp constant.character.escape */,
+&-sr &-sre /* string.regexp source.ruby.embedded */,
+&-sr &-sra /* string.regexp string.regexp.arbitrary-repitition */ {
+        @apply text-yellow #{!important};
+    }
+
+    &-bu /* invalid.broken, invalid.deprecated, invalid.uni&emented, message.error, brackethighlighter.unmatched, sublimelinter.mark.error */ {
+        @apply text-red #{!important};
+    }
+
+    &-ii /* invalid.illegal */ {
+        @apply bg-red text-white #{!important};
+    }
+
+    &-c2 /* carriage-return */ {
+        @apply bg-red text-white #{!important};
+    }
+
+    &-c2::before /* carriage-return */ {
+        content: "^M" #{!important};
+    }
+
+    &-token:hover {
+        @apply bg-darkGray #{!important};
+    }
+
+    &-sr &-cce /* string.regexp constant.character.escape */ {
+        @apply font-bold text-green #{!important};
+    }
+
+    &-m {
+        &l /* markup.list */ {
+            @apply text-yellow #{!important};
+        }
+
+        &h /* markup.heading */,
+&h &-en /* markup.heading entity.name */
+        &i /* markup.italic */ {
+            @apply text-black #{!important};
+        }
+
+        &b /* markup.bold */ {
+            @apply font-bold text-black #{!important};
+        }
+
+        &d /* markup.deleted, meta.diff.header.from-file, punctuation.definition.deleted */ {
+            @apply text-pink #{!important};
+        }
+
+        &i1 /* markup.inserted, meta.diff.header.to-file, punctuation.definition.inserted */ {
+            @apply text-green #{!important};
+        }
+
+        &c /* markup.changed, punctuation.definition.changed */ {
+            @apply text-yellow #{!important};
+        }
+
+        &i2 /* markup.ignore, markup.untracked */ {
+            @apply bg-aqua text-white #{!important};
+        }
+
+        &s /* meta.separator */ {
+            @apply font-bold text-yellow #{!important};
+        }
+
+        &dr /* meta.diff.range */ {
+            @apply font-bold text-purple #{!important};
+        }
+    }
+
+    &-ba /* brackethighlighter.tag, brackethighlighter.curly, brackethighlighter.round, brackethighlighter.square, brackethighlighter.angle, brackethighlighter.quote */ {
+        @apply text-pink #{!important};
+    }
+
+    &-sg /* sublimelinter.gutter-mark */ {
+        @apply text-lightGray #{!important};
+    }
+
+    &-corl /* constant.other.reference.link, string.other.link */ {
+        @apply text-aqua underline #{!important};
+    }
+
+    &-kos {
+        @apply text-pink #{!important};
+    }
+}
