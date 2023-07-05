@@ -21,7 +21,7 @@
 		585335EC2982F763005C4170 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 585335EB2982F763005C4170 /* images */; };
 		585335EE2982F763005C4170 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 585335ED2982F763005C4170 /* manifest.json */; };
 		58C8BF242A5598BB0083C78F /* one-monokai-prettylights.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C8BF232A5598BB0083C78F /* one-monokai-prettylights.css */; };
-		58C8BF262A5598D20083C78F /* one-monokai-codemirror.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C8BF252A5598D20083C78F /* one-monokai-codemirror.css */; };
+		58C8BF282A55C7B80083C78F /* one-monokai-codemirror.css in Resources */ = {isa = PBXBuildFile; fileRef = 58C8BF272A55C7B80083C78F /* one-monokai-codemirror.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		585335F92982F763005C4170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585335FA2982F763005C4170 /* GitHub One Monokai_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub One Monokai_Extension.entitlements"; sourceTree = "<group>"; };
 		58C8BF232A5598BB0083C78F /* one-monokai-prettylights.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "one-monokai-prettylights.css"; sourceTree = "<group>"; };
-		58C8BF252A5598D20083C78F /* one-monokai-codemirror.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "one-monokai-codemirror.css"; sourceTree = "<group>"; };
+		58C8BF272A55C7B80083C78F /* one-monokai-codemirror.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "one-monokai-codemirror.css"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 				585335E92982F763005C4170 /* _locales */,
 				585335EB2982F763005C4170 /* images */,
 				585335ED2982F763005C4170 /* manifest.json */,
-				58C8BF252A5598D20083C78F /* one-monokai-codemirror.css */,
+				58C8BF272A55C7B80083C78F /* one-monokai-codemirror.css */,
 				58C8BF232A5598BB0083C78F /* one-monokai-prettylights.css */,
 			);
 			path = Resources;
@@ -252,7 +252,7 @@
 				585335EC2982F763005C4170 /* images in Resources */,
 				585335EE2982F763005C4170 /* manifest.json in Resources */,
 				58C8BF242A5598BB0083C78F /* one-monokai-prettylights.css in Resources */,
-				58C8BF262A5598D20083C78F /* one-monokai-codemirror.css in Resources */,
+				58C8BF282A55C7B80083C78F /* one-monokai-codemirror.css in Resources */,
 				585335EA2982F763005C4170 /* _locales in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
