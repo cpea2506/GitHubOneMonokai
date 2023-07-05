@@ -1,0 +1,33 @@
+name: App build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  macos-build:
+    name: App build
+    runs-on: macos-12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Xcode build
+        uses: sersoft-gmbh/xcodebuild-action@v2
+        with:
+          project: ./SafariGitHubSyntaxOneMonokai.xcodeproj
+          destination: platform=macOS
+          target: SafariGitHubSyntaxOneMonokai
+          action: build
+      - name: Prepare artifact
+        run: |
+          mkdir -p "bin/SafariGitHubSyntaxOneMonokai"
+          mv "build/Release/SafariGitHubSyntaxOneMonokai.app" "bin/SafariGitHubSyntaxOneMonokai"
+          chmod a+x "bin/SafariGitHubSyntaxOneMonokai/SafariGitHubSyntaxOneMonokai.app/Contents/MacOS/SafariGitHubSyntaxOneMonokai"
+          ln -s /Applications "bin/SafariGitHubSyntaxOneMonokai/Applications"
+          hdiutil create bin/tmp.dmg -ov -volname "SafariGitHubSyntaxOneMonokai" -fs HFS+ -srcfolder "bin/SafariGitHubSyntaxOneMonokai"
+          hdiutil convert bin/tmp.dmg -format UDZO -o "bin/SafariGitHubSyntaxOneMonokai.dmg"
+          rm bin/tmp.dmg
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: SafariGitHubSyntaxOneMonokai
+          path: bin/SafariGitHubSyntaxOneMonokai.dmg
