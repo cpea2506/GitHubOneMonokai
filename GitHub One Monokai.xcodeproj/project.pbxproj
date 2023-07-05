@@ -15,7 +15,7 @@
 		585335D52982F762005C4170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585335D42982F762005C4170 /* ViewController.swift */; };
 		585335D82982F762005C4170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585335D62982F762005C4170 /* Main.storyboard */; };
 		585335DA2982F763005C4170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585335D92982F763005C4170 /* Assets.xcassets */; };
-		585335E22982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 585335E12982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		585335E22982F763005C4170 /* GitHub One Monokai Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 585335E12982F763005C4170 /* GitHub One Monokai Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		585335E72982F763005C4170 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585335E62982F763005C4170 /* SafariWebExtensionHandler.swift */; };
 		585335EA2982F763005C4170 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 585335E92982F763005C4170 /* _locales */; };
 		585335EC2982F763005C4170 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 585335EB2982F763005C4170 /* images */; };
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				585335E22982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension.appex in Embed Foundation Extensions */,
+				585335E22982F763005C4170 /* GitHub One Monokai Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		585335C52982F762005C4170 /* SafariGitHubSyntaxOneMonokai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariGitHubSyntaxOneMonokai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585335C52982F762005C4170 /* GitHub One Monokai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub One Monokai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		585335C82982F762005C4170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		585335CC2982F762005C4170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		585335CE2982F762005C4170 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -58,15 +58,15 @@
 		585335D42982F762005C4170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		585335D72982F762005C4170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		585335D92982F763005C4170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		585335DB2982F763005C4170 /* SafariGitHubSyntaxOneMonokai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariGitHubSyntaxOneMonokai.entitlements; sourceTree = "<group>"; };
-		585335DC2982F763005C4170 /* SafariGitHubSyntaxOneMonokai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariGitHubSyntaxOneMonokai.entitlements; sourceTree = "<group>"; };
-		585335E12982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafariGitHubSyntaxOneMonokai Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585335DB2982F763005C4170 /* GitHub One Monokai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub One Monokai.entitlements"; sourceTree = "<group>"; };
+		585335DC2982F763005C4170 /* GitHub One Monokai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub One Monokai.entitlements"; sourceTree = "<group>"; };
+		585335E12982F763005C4170 /* GitHub One Monokai Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GitHub One Monokai Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		585335E62982F763005C4170 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		585335E92982F763005C4170 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		585335EB2982F763005C4170 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		585335ED2982F763005C4170 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		585335F92982F763005C4170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		585335FA2982F763005C4170 /* SafariGitHubSyntaxOneMonokai_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariGitHubSyntaxOneMonokai_Extension.entitlements; sourceTree = "<group>"; };
+		585335FA2982F763005C4170 /* GitHub One Monokai_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub One Monokai_Extension.entitlements"; sourceTree = "<group>"; };
 		585336042982F972005C4170 /* syntax-one-monokai-codemirror.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "syntax-one-monokai-codemirror.css"; sourceTree = "<group>"; };
 		585336062982F976005C4170 /* syntax-one-monokai-prettylights.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "syntax-one-monokai-prettylights.css"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +92,8 @@
 		585335BC2982F762005C4170 = {
 			isa = PBXGroup;
 			children = (
-				585335C72982F762005C4170 /* SafariGitHubSyntaxOneMonokai */,
-				585335E52982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension */,
+				585335C72982F762005C4170 /* GitHub One Monokai */,
+				585335E52982F763005C4170 /* GitHub One Monokai Extension */,
 				585335C62982F762005C4170 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,24 +101,24 @@
 		585335C62982F762005C4170 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				585335C52982F762005C4170 /* SafariGitHubSyntaxOneMonokai.app */,
-				585335E12982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension.appex */,
+				585335C52982F762005C4170 /* GitHub One Monokai.app */,
+				585335E12982F763005C4170 /* GitHub One Monokai Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		585335C72982F762005C4170 /* SafariGitHubSyntaxOneMonokai */ = {
+		585335C72982F762005C4170 /* GitHub One Monokai */ = {
 			isa = PBXGroup;
 			children = (
 				585335C82982F762005C4170 /* AppDelegate.swift */,
 				585335D42982F762005C4170 /* ViewController.swift */,
 				585335D62982F762005C4170 /* Main.storyboard */,
 				585335D92982F763005C4170 /* Assets.xcassets */,
-				585335DB2982F763005C4170 /* SafariGitHubSyntaxOneMonokai.entitlements */,
-				585335DC2982F763005C4170 /* SafariGitHubSyntaxOneMonokai.entitlements */,
+				585335DB2982F763005C4170 /* GitHub One Monokai.entitlements */,
+				585335DC2982F763005C4170 /* GitHub One Monokai.entitlements */,
 				585335CA2982F762005C4170 /* Resources */,
 			);
-			path = SafariGitHubSyntaxOneMonokai;
+			path = "GitHub One Monokai";
 			sourceTree = "<group>";
 		};
 		585335CA2982F762005C4170 /* Resources */ = {
@@ -132,15 +132,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		585335E52982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension */ = {
+		585335E52982F763005C4170 /* GitHub One Monokai Extension */ = {
 			isa = PBXGroup;
 			children = (
 				585335E62982F763005C4170 /* SafariWebExtensionHandler.swift */,
 				585335F92982F763005C4170 /* Info.plist */,
-				585335FA2982F763005C4170 /* SafariGitHubSyntaxOneMonokai_Extension.entitlements */,
+				585335FA2982F763005C4170 /* GitHub One Monokai_Extension.entitlements */,
 				585335E82982F763005C4170 /* Resources */,
 			);
-			path = "SafariGitHubSyntaxOneMonokai Extension";
+			path = "GitHub One Monokai Extension";
 			sourceTree = "<group>";
 		};
 		585335E82982F763005C4170 /* Resources */ = {
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		585335C42982F762005C4170 /* SafariGitHubSyntaxOneMonokai */ = {
+		585335C42982F762005C4170 /* GitHub One Monokai */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 585336012982F763005C4170 /* Build configuration list for PBXNativeTarget "SafariGitHubSyntaxOneMonokai" */;
+			buildConfigurationList = 585336012982F763005C4170 /* Build configuration list for PBXNativeTarget "GitHub One Monokai" */;
 			buildPhases = (
 				585335C12982F762005C4170 /* Sources */,
 				585335C22982F762005C4170 /* Frameworks */,
@@ -172,14 +172,14 @@
 			dependencies = (
 				585335E42982F763005C4170 /* PBXTargetDependency */,
 			);
-			name = SafariGitHubSyntaxOneMonokai;
+			name = "GitHub One Monokai";
 			productName = SafariGitHubSyntaxOneMonokai;
-			productReference = 585335C52982F762005C4170 /* SafariGitHubSyntaxOneMonokai.app */;
+			productReference = 585335C52982F762005C4170 /* GitHub One Monokai.app */;
 			productType = "com.apple.product-type.application";
 		};
-		585335E02982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension */ = {
+		585335E02982F763005C4170 /* GitHub One Monokai Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 585335FD2982F763005C4170 /* Build configuration list for PBXNativeTarget "SafariGitHubSyntaxOneMonokai Extension" */;
+			buildConfigurationList = 585335FD2982F763005C4170 /* Build configuration list for PBXNativeTarget "GitHub One Monokai Extension" */;
 			buildPhases = (
 				585335DD2982F763005C4170 /* Sources */,
 				585335DE2982F763005C4170 /* Frameworks */,
@@ -189,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = "SafariGitHubSyntaxOneMonokai Extension";
+			name = "GitHub One Monokai Extension";
 			productName = "SafariGitHubSyntaxOneMonokai Extension";
-			productReference = 585335E12982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension.appex */;
+			productReference = 585335E12982F763005C4170 /* GitHub One Monokai Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 585335C02982F762005C4170 /* Build configuration list for PBXProject "SafariGitHubSyntaxOneMonokai" */;
+			buildConfigurationList = 585335C02982F762005C4170 /* Build configuration list for PBXProject "GitHub One Monokai" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				585335C42982F762005C4170 /* SafariGitHubSyntaxOneMonokai */,
-				585335E02982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension */,
+				585335C42982F762005C4170 /* GitHub One Monokai */,
+				585335E02982F763005C4170 /* GitHub One Monokai Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 /* Begin PBXTargetDependency section */
 		585335E42982F763005C4170 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 585335E02982F763005C4170 /* SafariGitHubSyntaxOneMonokai Extension */;
+			target = 585335E02982F763005C4170 /* GitHub One Monokai Extension */;
 			targetProxy = 585335E32982F763005C4170 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,7 +496,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SafariGitHubSyntaxOneMonokai/SafariGitHubSyntaxOneMonokai.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "GitHub One Monokai/GitHub One Monokai.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -504,7 +505,8 @@
 				DEVELOPMENT_TEAM = R5YS792LYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Safari GitHub Syntax One Monokai";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub One Monokai";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -520,7 +522,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.SafariGitHubSyntaxOneMonokai;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.GitHubOneMonokai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -533,7 +535,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SafariGitHubSyntaxOneMonokai/SafariGitHubSyntaxOneMonokai.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "GitHub One Monokai/GitHub One Monokai.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -541,7 +544,8 @@
 				DEVELOPMENT_TEAM = R5YS792LYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Safari GitHub Syntax One Monokai";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub One Monokai";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -557,7 +561,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.SafariGitHubSyntaxOneMonokai;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpea.GitHubOneMonokai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -567,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		585335C02982F762005C4170 /* Build configuration list for PBXProject "SafariGitHubSyntaxOneMonokai" */ = {
+		585335C02982F762005C4170 /* Build configuration list for PBXProject "GitHub One Monokai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				585335FB2982F763005C4170 /* Debug */,
@@ -576,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		585335FD2982F763005C4170 /* Build configuration list for PBXNativeTarget "SafariGitHubSyntaxOneMonokai Extension" */ = {
+		585335FD2982F763005C4170 /* Build configuration list for PBXNativeTarget "GitHub One Monokai Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				585335FE2982F763005C4170 /* Debug */,
@@ -585,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		585336012982F763005C4170 /* Build configuration list for PBXNativeTarget "SafariGitHubSyntaxOneMonokai" */ = {
+		585336012982F763005C4170 /* Build configuration list for PBXNativeTarget "GitHub One Monokai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				585336022982F763005C4170 /* Debug */,

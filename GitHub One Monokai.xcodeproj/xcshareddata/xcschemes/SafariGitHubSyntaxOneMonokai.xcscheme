@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "585335C42982F762005C4170"
-               BuildableName = "SafariGitHubSyntaxOneMonokai.app"
-               BlueprintName = "SafariGitHubSyntaxOneMonokai"
-               ReferencedContainer = "container:SafariGitHubSyntaxOneMonokai.xcodeproj">
+               BuildableName = "GitHub One Monokai.app"
+               BlueprintName = "GitHub One Monokai"
+               ReferencedContainer = "container:GitHub One Monokai.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "585335C42982F762005C4170"
-            BuildableName = "SafariGitHubSyntaxOneMonokai.app"
-            BlueprintName = "SafariGitHubSyntaxOneMonokai"
-            ReferencedContainer = "container:SafariGitHubSyntaxOneMonokai.xcodeproj">
+            BuildableName = "GitHub One Monokai.app"
+            BlueprintName = "GitHub One Monokai"
+            ReferencedContainer = "container:GitHub One Monokai.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "585335C42982F762005C4170"
-            BuildableName = "SafariGitHubSyntaxOneMonokai.app"
-            BlueprintName = "SafariGitHubSyntaxOneMonokai"
-            ReferencedContainer = "container:SafariGitHubSyntaxOneMonokai.xcodeproj">
+            BuildableName = "GitHub One Monokai.app"
+            BlueprintName = "GitHub One Monokai"
+            ReferencedContainer = "container:GitHub One Monokai.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
