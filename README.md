@@ -1,4 +1,12 @@
-<h1 align="center"> Safari GitHub Syntax One Monokai </h1>
+<div align="center">
+    <img
+        src="https://github.com/cpea2506/GitHubOneMonokai/assets/42694704/65ec75c2-3e8c-443a-a6c2-24697a0c5cec"
+        width="180"
+        alt="logo"
+    />
+</div>
+
+<h1 align="center"> GitHub One Monokai </h1>
 
 <div align="center"> Get beautiful One Monokai syntax into your GitHub enviroment on Safari! </div>
 
