@@ -47,7 +47,12 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
             return
         }
 
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { _ in
+        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+            guard error == nil else {
+                debugPrint("Something went wrong: \(error!.localizedDescription)")
+                return
+            }
+
             DispatchQueue.main.async {
                 NSApplication.shared.terminate(nil)
             }
