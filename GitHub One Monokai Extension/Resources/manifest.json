@@ -17,10 +17,7 @@
                 "one-monokai-prettylights.css",
                 "one-monokai-codemirror.css"
             ],
-            "matches": [
-                "https://github.com/*",
-                "https://*.github.com/*"
-            ]
+            "matches": ["https://github.com/*", "https://*.github.com/*"]
         }
     ],
     "action": {

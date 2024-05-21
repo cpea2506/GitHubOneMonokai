@@ -1,23 +1,23 @@
 {
-    "name": "GitHub One Monokai",
-    "version": "1.1.0",
-    "author": "cpea2506 <cpea2506@gmail.com>",
-    "license": "MIT",
-    "description": "One Monokai colorscheme for GitHub on Safari",
-    "scripts": {
-        "build:codemirror": "tailwindcss -i './GitHub One Monokai Extension/Resources/one-monokai-codemirror.css' -o './GitHub One Monokai Extension/Resources/one-monokai-codemirror.css'",
-        "build:prettylights": "tailwindcss -i './GitHub One Monokai Extension/Resources/one-monokai-prettylights.css' -o './GitHub One Monokai Extension/Resources/one-monokai-prettylights.css'",
-        "build:css": "sass . && pnpm build:codemirror && pnpm build:prettylights",
-        "build": "tsc && pnpm build:css"
-    },
-    "type": "module",
-    "devDependencies": {
-        "prettier": "^2.8.8",
-        "prettier-plugin-tailwindcss": "^0.3.0",
-        "sass": "^1.63.6",
-        "stylelint": "^15.10.0",
-        "stylelint-config-recommended-scss": "^12.0.0",
-        "tailwindcss": "^3.3.2",
-        "typescript": "^5.1.6"
-    }
+  "name": "GitHub One Monokai",
+  "version": "1.1.0",
+  "author": "cpea2506 <cpea2506@gmail.com>",
+  "license": "MIT",
+  "description": "One Monokai colorscheme for GitHub on Safari",
+  "scripts": {
+    "build:codemirror": "tailwindcss -i './GitHub One Monokai Extension/Resources/one-monokai-codemirror.css' -o './GitHub One Monokai Extension/Resources/one-monokai-codemirror.css'",
+    "build:prettylights": "tailwindcss -i './GitHub One Monokai Extension/Resources/one-monokai-prettylights.css' -o './GitHub One Monokai Extension/Resources/one-monokai-prettylights.css'",
+    "build:css": "sass . && bun run build:codemirror && bun run build:prettylights",
+    "build": "tsc && bun run build:css"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "sass": "^1.77.2",
+    "stylelint": "^16.5.0",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  }
 }

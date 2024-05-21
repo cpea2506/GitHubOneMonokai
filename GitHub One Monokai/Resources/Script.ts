@@ -1,10 +1,10 @@
 function show(enabled: any, useSettingsInsteadOfPreferences: boolean) {
     if (useSettingsInsteadOfPreferences) {
-        document.querySelector(".state-on").textContent = "Status: Enabled";
-        document.querySelector(".state-off").textContent = "Status: Disabled";
-        document.querySelector(".state-unknown").textContent =
+        document.querySelector(".state-on")!.textContent = "Status: Enabled";
+        document.querySelector(".state-off")!.textContent = "Status: Disabled";
+        document.querySelector(".state-unknown")!.textContent =
             "You can turn on GitHub One Monokai’s extension in the Extensions section of Safari Settings.";
-        document.querySelector(".open-preferences").textContent =
+        document.querySelector(".open-preferences")!.textContent =
             "Open in Safari Settings…";
     }
 
@@ -23,5 +23,5 @@ function openPreferences() {
 }
 
 document
-    .querySelector("button.open-preferences")
+    .querySelector("button.open-preferences")!
     .addEventListener("click", openPreferences);
