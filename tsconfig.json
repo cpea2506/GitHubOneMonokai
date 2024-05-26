@@ -2,23 +2,18 @@
     "compilerOptions": {
         "lib": ["ESNext", "DOM"],
         "target": "ESNext",
-        "module": "ESNext",
+        "module": "NodeNext",
         "moduleDetection": "force",
         "allowJs": true,
 
-        // Bundler mode
-        "moduleResolution": "bundler",
-        "allowImportingTsExtensions": true,
-        "verbatimModuleSyntax": true,
-        "noEmit": true,
+        "moduleResolution": "NodeNext",
 
-        // Best practices
         "strict": true,
         "skipLibCheck": true,
         "noFallthroughCasesInSwitch": true,
 
-        // Some stricter flags
         "noUnusedParameters": true,
         "noPropertyAccessFromIndexSignature": true
-    }
+    },
+    "exclude": ["node_modules"]
 }
