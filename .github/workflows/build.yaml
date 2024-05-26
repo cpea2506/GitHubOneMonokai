@@ -53,6 +53,14 @@ jobs:
                   destination: platform=macOS
                   target: GitHub One Monokai
                   action: build
+            - name: Xcode build clean
+              uses: sersoft-gmbh/xcodebuild-action@v3
+              if: failure()
+              with:
+                  project: ./GitHub One Monokai.xcodeproj
+                  destination: platform=macOS
+                  target: GitHub One Monokai
+                  action: clean build
             - name: Prepare artifact
               run: |
                   mkdir -p "bin/GitHub One Monokai"
