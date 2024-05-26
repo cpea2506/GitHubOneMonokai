@@ -47,7 +47,7 @@ jobs:
                   mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
                   cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles
             - name: Xcode build
-              uses: sersoft-gmbh/xcodebuild-action@v2
+              uses: sersoft-gmbh/xcodebuild-action@v3
               with:
                   project: ./GitHub One Monokai.xcodeproj
                   destination: platform=macOS
@@ -63,7 +63,7 @@ jobs:
                   hdiutil convert bin/tmp.dmg -format UDZO -o "bin/GitHub One Monokai.dmg"
                   rm bin/tmp.dmg
             - name: Upload artifact
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v4
               with:
                   name: GitHub One Monokai
                   path: bin/GitHub One Monokai.dmg
